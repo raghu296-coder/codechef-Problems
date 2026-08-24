@@ -42,9 +42,9 @@ Three values were passed to the function so it should return 3.
 ## Solution
 
 **Language:** TypeScript  
-**Runtime:** 42 ms (beats 66.96%)  
-**Memory:** 55.4 MB (beats 41.87%)  
-**Submitted:** 2026-08-24T14:28:23.166Z  
+**Runtime:** 45 ms  
+**Memory:** 52.9 MB  
+**Submitted:** 2026-08-24T14:28:37.703Z  
 
 ```ts
 type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
