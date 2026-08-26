@@ -52,9 +52,9 @@ Every salary has been doubled.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 207 ms  
-**Memory:** 65.2 MB  
-**Submitted:** 2026-08-26T16:32:11.970Z  
+**Runtime:** 255 ms (beats 91.67%)  
+**Memory:** 66.3 MB (beats 23.96%)  
+**Submitted:** 2026-08-26T16:36:53.115Z  
 
 ```py
 import pandas as pd
