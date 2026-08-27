@@ -90,7 +90,7 @@ So, Chef will attempt in the order $B \rightarrow A$ and thus obtain $1400$ poin
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T15:57:00.732Z  
+**Submitted:** 2026-08-27T15:57:14.222Z  
 
 ```java
 import java.util.*;
