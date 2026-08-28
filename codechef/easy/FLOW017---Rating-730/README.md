@@ -41,7 +41,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T16:15:13.082Z  
+**Submitted:** 2026-08-28T16:16:01.364Z  
 
 ```java
 import java.util.*;
@@ -67,6 +67,7 @@ class Codechef
 		    }else {
 		        System.out.println( Math.max(x,y));
 	       	}
+	       	System.out.println();
 		    
     
 	}
