@@ -21,6 +21,7 @@ class Codechef
 		    }else {
 		        System.out.println( Math.max(x,y));
 	       	}
+	       	System.out.println();
 		    
     
 	}
