@@ -48,24 +48,24 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.6 MB (beats 41.73%)  
-**Submitted:** 2026-08-29T16:48:03.922Z  
+**Memory:** 43.8 MB (beats 9.11%)  
+**Submitted:** 2026-08-29T16:50:16.076Z  
 
 ```java
 public class Solution {
-public void sortColors(int[] nums) {
-int low = 0, mid = 0, high = nums.length - 1;
-while (mid <= high) {
-if (nums[mid] == 0) {
-int tmp = nums[low];
-nums[low++] = nums[mid];
-nums[mid++] = tmp;
-} else if (nums[mid] == 1) {
-mid++;
-} else {
-int tmp = nums[mid];
-nums[mid] = nums[high];
-nums[high--] = tmp;
+    public void sortColors(int[] nums) {
+        int low = 0, mid = 0, high = nums.length - 1;
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                int tmp = nums[low];
+                nums[low++] = nums[mid];
+                nums[mid++] = tmp;
+            } else if (nums[mid] == 1) {
+                mid++;
+            } else {
+               int tmp = nums[mid];
+                nums[mid] = nums[high];
+                nums[high--] = tmp;
 }
 }
 }
