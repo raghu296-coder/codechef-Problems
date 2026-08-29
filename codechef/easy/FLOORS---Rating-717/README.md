@@ -64,7 +64,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-29T16:32:21.491Z  
+**Submitted:** 2026-08-29T16:34:53.592Z  
 
 ```java
 import java.util.*;
@@ -82,7 +82,7 @@ class Codechef
 		    
 		    int x= sc.nextInt();
 		    int y=sc.nextInt();
-		    int a = (x-1)/10;
+		    int a = x/10;
 		    
 		    int b= (y-1)/10;
 		    
