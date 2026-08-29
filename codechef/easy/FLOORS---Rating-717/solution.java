@@ -13,7 +13,7 @@ class Codechef
 		    
 		    int x= sc.nextInt();
 		    int y=sc.nextInt();
-		    int a = (x-1)/10;
+		    int a = x/10;
 		    
 		    int b= (y-1)/10;
 		    
