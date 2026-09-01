@@ -36,14 +36,13 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 42.5 MB (beats 18.40%)  
-**Submitted:** 2026-09-01T16:54:45.219Z  
+**Memory:** 42 MB (beats 87.82%)  
+**Submitted:** 2026-09-01T16:55:15.747Z  
 
 ```java
 class Solution {
     public int sum(int num1, int num2) {
-        int result= num1+ num2;
-       return result;
+        return num1+ num2;
     }
 }
 ```
