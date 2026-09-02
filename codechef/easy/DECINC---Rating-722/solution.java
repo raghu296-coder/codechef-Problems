@@ -8,7 +8,7 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		int n= sc.nextInt;
+		int n= sc.nextInt();
 		if (n%4==0){
 		   n++;
 		    System.out.println(n);
