@@ -52,9 +52,9 @@ Return `true` if it is possible to construct such an array, otherwise, return `f
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 44.5 MB (beats 99.61%)  
-**Submitted:** 2026-09-02T15:51:07.101Z  
+**Runtime:** 0 ms  
+**Memory:** 42.5 MB  
+**Submitted:** 2026-09-02T15:49:44.606Z  
 
 ```java
 class Solution {
