@@ -39,7 +39,7 @@ Since 5 is not divisible by 4 hence, its value is decreased by 1.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T16:16:42.315Z  
+**Submitted:** 2026-09-02T16:17:11.210Z  
 
 ```java
 import java.util.*;
@@ -52,7 +52,7 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		int n= sc.nextInt;
+		int n= sc.nextInt();
 		if (n%4==0){
 		   n++;
 		    System.out.println(n);
