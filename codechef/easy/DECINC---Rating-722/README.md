@@ -39,7 +39,7 @@ Since 5 is not divisible by 4 hence, its value is decreased by 1.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T16:17:11.210Z  
+**Submitted:** 2026-09-02T16:17:57.226Z  
 
 ```java
 import java.util.*;
