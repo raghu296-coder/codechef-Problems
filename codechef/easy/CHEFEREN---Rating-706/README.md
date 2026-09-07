@@ -51,41 +51,19 @@ Output
 
 ## Solution
 
-**Language:** Java  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T14:25:01.789Z  
+**Submitted:** 2026-09-07T15:37:11.257Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		Scanner sc = new Scanner(System.in);
-		if( sc.hasNextInt()){
-		    int t= sc.nextInt();
-		    
-		    
-		    while(t-->0){
-		        int n= sc.nextInt();
-		        int a= sc.nextInt();
-		        int b= sc.nextInt();
-		          int even= n/2;
-		          int odd= n-even;
-		          
-		          int total= (even*a)+(odd* b);
-		          
-		          System.out.println(total);
-		          
-		    }
-		}
-sc.close();
-	}
-}
+```py
+# cook your dish here
+for _ in range(int(input())):
+    n,a,b=map(int,input().split())
+    c= n//2
+    d=n-c
+    res=c*a+d*b
+    print(res)
 
 ```
 
