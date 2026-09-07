@@ -6,3 +6,5 @@ if n>2*k:
     for i in range(0,n,2):
         total+= arr[i]
     print(total)
+else:
+    print(0)
