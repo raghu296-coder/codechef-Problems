@@ -73,17 +73,15 @@ Each number has at most $4$ significant bits, so removing $4$ least significant 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:14:51.313Z  
+**Submitted:** 2026-09-07T14:17:39.747Z  
 
 ```py
 # cook your dish here
-x,y,z=map(int,input().split())
-while x!=0:
-    if x/(2**z):
-        print(x/(2**z))
-    else:
-        print(0)
-
+x=int(input())
+arr= list(map(int,input().split()))
+z=int(input())
+for x in arr:
+    print(x//(2**z))
 ```
 
 ---
