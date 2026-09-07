@@ -83,7 +83,7 @@ Therefore, the required sum is `0`.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T14:00:24.741Z  
+**Submitted:** 2026-09-07T14:01:02.641Z  
 
 ```py
 # cook your dish here
@@ -94,7 +94,8 @@ if n>2*k:
     for i in range(0,n,2):
         total+= arr[i]
     print(total)
-
+else:
+    print(0)
 ```
 
 ---
