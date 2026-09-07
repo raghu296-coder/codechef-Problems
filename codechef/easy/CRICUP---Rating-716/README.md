@@ -51,14 +51,15 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-07T15:01:25.536Z  
+**Submitted:** 2026-09-07T15:09:34.501Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
-    x,y,z=map(int,input().split())
-    d=x-y
-    if(d<=z):
+    x,y,D=map(int,input().split())
+    
+    d=abs(x-y)
+    if(d<=D):
         print("YES")
     else:
         print("NO")
