@@ -52,7 +52,7 @@ In this example 1 as 10 is lesser than 20
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:37:17.818Z  
+**Submitted:** 2026-09-09T16:37:42.393Z  
 
 ```py
 # cook your dish here
@@ -63,7 +63,7 @@ for _ in range(int(input())):
     elif(x==y):
         print('=')
     else:
-        print('<')
+        print("<")
 ```
 
 ---
