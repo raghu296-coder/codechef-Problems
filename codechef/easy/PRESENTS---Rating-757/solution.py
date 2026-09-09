@@ -1,3 +1,5 @@
 # cook your dish here
 for _ in range (int(input())):
-    print(4)
+    n=int(input())
+    print(n-(n//5))
+    
