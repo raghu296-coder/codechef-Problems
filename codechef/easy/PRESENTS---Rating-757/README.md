@@ -49,12 +49,14 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:03:42.531Z  
+**Submitted:** 2026-09-09T16:08:10.353Z  
 
 ```py
 # cook your dish here
 for _ in range (int(input())):
-    print(4)
+    n=int(input())
+    print(n-(n//5))
+    
 ```
 
 ---
