@@ -59,7 +59,7 @@ Similar to the previous explanation, the maximum total score that Team B can ach
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:32:37.062Z  
+**Submitted:** 2026-09-09T16:33:18.201Z  
 
 ```py
 # cook your dish here
