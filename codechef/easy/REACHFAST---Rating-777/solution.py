@@ -1,11 +1,16 @@
 # cook your dish here
 for _ in range(int(input())):
-    n,k=map(int,input().split())
-    arr=list(map(int,input().split()))
-    count=0
-    for i in range(n):
-        arr[i]=arr[i]+k
-        if(arr[i]%7==0):
-            count+=1
-    print(count)
+    x,y,z=map(int,input().split())
+    s=min(x,y)
+    e=max(x,y)
+    if(s==e):
+        print(0)
+    elif s<e:
+        d=e-s
+        if d%z==0:
+            print(d//z)
+        else:
+            print((d//z)+1)
+        
+        
         
