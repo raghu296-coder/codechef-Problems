@@ -1,6 +1,2 @@
-pi = 3.14
-radius = 8.9
-
-area = pi * radius * radius
-
-print(area)
+# Update your code below this line
+print("Learning is fun!")
