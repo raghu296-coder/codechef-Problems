@@ -4,51 +4,46 @@
 
 ## Problem
 
-### Multiple Choice Question
+### Inserting text Between Outputs
 
-What will be the output of this code?
+Listen
 
-```
-print(82, 2, " ", 3)
+Remember that to print multiple values on same line, we have to use comma inside print statement.
 
-```
+We can also combine text and numbers in a single print statement by comma separating them.
 
- **Option 1** :
-
-```
-8223
+For example, check the below code:
 
 ```
-
- **Option 2** :
-
-```
-82 2 3
+print("My favorite number is", 10)
 
 ```
 
- **Option 3** :
+The code will output:
 
 ```
-82 2   3
+My favorite number is 10
 
 ```
 
- **Option 4** :
+### Task
+- You have to output the text:
 
 ```
-82 2 " " 3
+7 plus 3 equals 10
 
 ```
+
+- Replace the underscores in the editor to get the above output.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:00:32.610Z  
+**Submitted:** 2026-09-11T07:00:10.045Z  
 
-```cpp
+```py
 # Add "equals" and 10 at the place of __, __
 
 print(7, "plus", 3, "equals", 7+3)
