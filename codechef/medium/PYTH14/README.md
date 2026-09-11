@@ -45,7 +45,7 @@ In Option 3, there are 2 spaces between "get"  and '5'.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:01:31.168Z  
+**Submitted:** 2026-09-11T07:01:34.977Z  
 
 ```cpp
 # Add "equals" and 10 at the place of __, __
