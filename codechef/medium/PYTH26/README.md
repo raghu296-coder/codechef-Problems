@@ -33,11 +33,11 @@ Write a program which does the following
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:13:08.346Z  
+**Submitted:** 2026-09-11T07:13:27.990Z  
 
 ```py
 # Update your code below this line
-print("Learning is fun!")
+print("Learning" "is fun!")
 ```
 
 ---
