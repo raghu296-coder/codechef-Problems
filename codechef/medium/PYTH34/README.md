@@ -21,7 +21,7 @@ print(c)
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:21:52.757Z  
+**Submitted:** 2026-09-11T07:21:55.778Z  
 
 ```cpp
 # Initialize the variables
