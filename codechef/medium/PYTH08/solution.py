@@ -1,4 +1,7 @@
-# Update the '_' in the code below to provide the following output
-# 7 3
+# Update the '_' in the code below to output the following 
+# 7
+# 3
 
-print(3 + 4, 2 + 1)
+print(3 + 4)
+
+print(2 + 1)
