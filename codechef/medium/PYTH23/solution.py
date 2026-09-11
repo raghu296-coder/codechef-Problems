@@ -1,4 +1,5 @@
 # Update the code below this line to solve the problem
-a=23
-b=20
-print(a+b)
+l=45
+b=76
+area=l*b
+print(area)
