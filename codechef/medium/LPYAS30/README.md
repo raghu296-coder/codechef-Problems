@@ -4,21 +4,31 @@
 
 ## Problem
 
-- Declare two variables x and y, and assign $20$ to x and $6$ to y.
-- Divide x by y (i.e., perform integer division x // y) and print the result.
+Declare a variable  **"temperature"**  and initialize it with a value of 25.5 (in Celsius) and print it in Celsius and Kelvin (add 273 to the temperature in Celsius).
+
+[ **Note:**  Print the output in exactly the same format as given below. There is single space around hyphen(-)]
+
+### Output Format
+
+Celsius - 25.5
+Kelvin - 298.5
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T07:26:59.159Z  
+**Submitted:** 2026-09-11T07:28:48.494Z  
 
 ```py
 # cook your dish here
-x=20
-y=6
-print(x//y)
+
+
+# Declare a variable "temperature" and initialize it with a value of 25.5
+temperature=25.5
+
+print("celsius-",temperature)
+print("Kelvin-",temperature + 273)
 ```
 
 ---
