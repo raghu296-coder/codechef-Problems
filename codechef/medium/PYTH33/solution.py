@@ -1,10 +1,10 @@
-# Initialize the side of the square
-s = 14
+# Initialize the variables
+a = -50
+b = 40
 
-# Calculate the area and cost
-area = s * s
-cost = area * 7
+# Calculate total and product
+total = a + b
+product = a * b
 
-# Output the results on separate lines
-print(area)
-print(cost)
+# Print both values on a single line separated by a space
+print(total, product)
