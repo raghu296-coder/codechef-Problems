@@ -4,81 +4,80 @@
 
 ## Problem
 
-### Reach fast
+### Single-use Attack
 
-Chef is standing at coordinate $A$ while Chefina is standing at coordinate $B$.
+Chef is playing a video game, and is now fighting the final boss.
 
-In one step, Chef can increase or decrease his coordinate by  **at most**  $K$.
+The boss has $H$ health points. Each attack of Chef reduces the health of the boss by $X$.
+Chef also has a special attack that can be used  **at most once**, and will decrease the health of the boss by $Y$.
 
-Determine the  **minimum**  number of steps required by Chef to reach Chefina.
+Chef wins when the health of the boss is $\leq 0$.
+What is the  **minimum**  number of attacks needed by Chef to win?
 
 ### Input Format
 - The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of three integers $A, B,$ and $K$, the initial coordinate of Chef, the initial coordinate of Chefina and the maximum number of coordinates Chef can move in one step.
+- The first and only line of each test case will contain three space-separated integers $H, X, Y$ — the parameters described in the statement.
 ### Output Format
 
-For each test case, output the minimum number of steps required by Chef to reach Chefina.
+For each test case, output on a new line the minimum number of attacks needed by Chef to win.
 
 ### Constraints
 - $1 \leq T \leq 1000$
-- $1 \leq A, B \leq 100$
-- $1 \leq K \leq 100$
+- $1 \leq X \lt Y \leq H \leq 100$
 ### Sample 1:
 Input
 Output
 
 ```
 4
-10 20 3
-36 36 5
-50 4 100
-30 4 2
+100 25 40
+100 29 45
+46 1 2
+78 15 78
 
 ```
 
 ```
 4
-0
+3
+45
 1
-13
 
 ```
 
 ### Explanation:
 
- **Test case $1$:**  In the first three steps, Chef increases his coordinate by $K = 3$. In the fourth step, Chef increases his coordinate by $1$ which is less than equal to $K$. It can be shown that this is the minimum number of steps required by Chef.
+ **Test case $1$:**  Chef can attack the boss $4$ times normally. This results in $25 + 25 + 25 + 25 = 100$ damage, which is enough to defeat the boss.
 
- **Test case $2$:**  Chef is already at the same coordinate as Chefina. Thus, he needs $0$ steps.
+ **Test case $2$:**  Chef can attack the boss $2$ times normally, then use the special attack. This results in $29 + 29 + 45 = 103$ damage, which is enough to defeat the boss.
 
- **Test case $3$:**  Chef can use $1$ step to decrease his coordinate by $46$ which is less than $K = 100$ and reach Chefina.
+ **Test case $3$:**  Chef can proceed as follows:
 
- **Test case $4$:**  Chef can use $13$ steps to decrease his coordinate by $K = 2$ and reach the coordinate $30-13\cdot 2 = 4$.
+- First, use the special attack. This leaves the boss with $46 - 2 = 44$ health.
+- Then, use $44$ normal attacks to defeat the boss, since each one does $1$ damage.
+
+This takes a total of $44 + 1 = 45$ attacks.
+
+ **Test case $4$:**  Chef can use the special attack to immediately bring the health of the boss to zero, hence only needing one attack.
 
 ## Solution
 
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-10T16:53:34.322Z  
+**Submitted:** 2026-09-11T08:33:06.751Z  
 
 ```py
 # cook your dish here
-for _ in range(int(input())):
-    x,y,z=map(int,input().split())
-    s=min(x,y)
-    e=max(x,y)
-    if(s==e):
-        print(0)
-    elif s<e:
-        d=e-s
-        if d%z==0:
-            print(d//z)
-        else:
-            print((d//z)+1)
-        
-        
-        
-
+# cook your dish here
+T=int(input())
+for i in range(T):
+    H,X,Y=map(int,input().split())
+    a=H-Y
+    if(a%X==0):
+        print((a//X)+1)
+    else:
+        print((a//X)+2)
 ```
 
 ---
