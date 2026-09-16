@@ -54,14 +54,14 @@ Hence, persons $1$ and $3$ share a row in this instance, so there are $2$ people
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T16:10:57.626Z  
+**Submitted:** 2026-09-16T16:12:38.734Z  
 
 ```py
 # cook your dish here
 for _ in range(int(input())):
     n,k=map(int,input().split())
     re=k-n
-    if n<=k:
+    if n>=k:
         print(0)
     else:
         print(re*2)
