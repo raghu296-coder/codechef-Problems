@@ -57,13 +57,13 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:58:02.619Z  
+**Submitted:** 2026-09-30T14:59:00.107Z  
 
 ```py
 # cook your dish here
 b,g,c=map(int,input().split())
-if b%2==0 | (b+1)%2==0:
-    print(b/2)
+if b%2==0 or (b+1)%2==0:
+    print(b//2)
 else:
     print(0)
 
