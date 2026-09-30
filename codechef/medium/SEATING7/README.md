@@ -56,11 +56,22 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:17:31.508Z  
+**Submitted:** 2026-09-30T15:33:54.517Z  
 
 ```py
 # cook your dish here
-
+for _ in range(int(input())):
+    n,m,k=map(int,input().split())
+    occupied =list(map(int,input().split())
+    occupied=set(occupied)
+    count=0
+    for i in range(1,n+1):
+        if i==occupied:
+            continue
+        print(i)
+        count+=1
+        if count=
+    
 ```
 
 ---
