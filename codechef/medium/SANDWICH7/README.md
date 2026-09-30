@@ -57,16 +57,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:59:18.619Z  
+**Submitted:** 2026-09-30T15:00:56.804Z  
 
 ```py
-# cook your dish here
-b,g,c=map(int,input().split())
-if b%2==0 or (b+1)%2==0:
-    print(b//2)
-else:
-    print(0)
+b, h, c = map(int, input().split())
 
+print(min(b // 2, h + c))
 ```
 
 ---
