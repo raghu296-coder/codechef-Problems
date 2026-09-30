@@ -54,18 +54,11 @@ No
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:10:55.458Z  
+**Submitted:** 2026-09-30T15:03:30.433Z  
 
 ```py
 # cook your dish here
 
-for _ in range(int(input())):
-    n,m=map(int,input().split())
-    a=n*m
-    if a%2==0:
-        print("Yes")
-    else:
-        print("NO")
 ```
 
 ---
